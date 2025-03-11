@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=swap"
+			rel="stylesheet" />
+
+		<title>Vite App</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<main class="page">
+				<section class="articles">
+					<div class="articles__container">
+						<h1 class="articles__title">Articles</h1>
+						<div class="articles__filter filter-articles">
+							<button
+								class="filter-articles__item active"
+								data-filter="*"
+								type="button">
+								Show All
+							</button>
+							<button class="filter-articles__item" data-filter="tech" type="button">
+								Technology
+							</button>
+							<button class="filter-articles__item" data-filter="cats" type="button">
+								Cats
+							</button>
+						</div>
+						<div class="articles__list">
+							<div data-filter="tech" class="articles__item article-item">
+								<a href="" class="article-item__img">
+									<img src="./src/img/tech-1.webp" alt="Image" />
+								</a>
+								<div class="article-item__body">
+									<div class="article-item__date">29.06.2021</div>
+									<h4 class="article-item__title">
+										<a href="#" class="article-item__title-link">
+											Lorem ipsum dolor sit amet.
+										</a>
+									</h4>
+									<div class="article-item__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+											distinctio expedita ipsum reiciendis quo recusandae sequi
+											laudantium, ullam eveniet temporibus provident natus atque at
+											deleniti porro blanditiis minus voluptatibus ducimus.Lorem ipsum
+											dolor sit amet consectetur adipisicing elit. Autem distinctio
+											expedita ipsum reiciendis quo recusandae sequi laudantium, ullam
+											eveniet temporibus provident natus atque at deleniti porro
+											blanditiis minus voluptatibus ducimus.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div data-filter="cats" class="articles__item article-item">
+								<a href="" class="article-item__img">
+									<img src="./src/img/cat-1.webp" alt="Image" />
+								</a>
+								<div class="article-item__body">
+									<div class="article-item__date">29.06.2021</div>
+									<h4 class="article-item__title">
+										<a href="#" class="article-item__title-link">
+											Lorem ipsum dolor sit amet.
+										</a>
+									</h4>
+									<div class="article-item__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+											distinctio expedita ipsum reiciendis quo recusandae sequi
+											laudantium, ullam eveniet temporibus provident natus atque at
+											deleniti porro blanditiis minus voluptatibus ducimus.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div data-filter="tech" class="articles__item article-item">
+								<a href="" class="article-item__img">
+									<img src="./src/img/tech-2.webp" alt="Image" />
+								</a>
+								<div class="article-item__body">
+									<div class="article-item__date">29.06.2021</div>
+									<h4 class="article-item__title">
+										<a href="#" class="article-item__title-link">
+											Lorem ipsum dolor sit amet.
+										</a>
+									</h4>
+									<div class="article-item__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+											distinctio expedita ipsum reiciendis quo recusandae sequi
+											laudantium, ullam eveniet temporibus provident natus atque at
+											deleniti porro blanditiis minus voluptatibus ducimus. Lorem, ipsum
+											dolor sit amet consectetur adipisicing elit. Accusantium
+											temporibus soluta incidunt dolor corrupti deserunt deleniti
+											voluptatum! Temporibus voluptatibus cum vel ullam officia
+											voluptatem exercitationem veritatis provident magni. Mollitia,
+											amet.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div data-filter="cats" class="articles__item article-item">
+								<a href="" class="article-item__img">
+									<img src="./src/img/cat-2.webp" alt="Image" />
+								</a>
+								<div class="article-item__body">
+									<div class="article-item__date">29.06.2021</div>
+									<h4 class="article-item__title">
+										<a href="#" class="article-item__title-link">
+											Lorem ipsum dolor sit amet.
+										</a>
+									</h4>
+									<div class="article-item__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+											distinctio expedita ipsum reiciendis quo recusandae sequi
+											laudantium, ullam eveniet temporibus provident natus atque at
+											deleniti porro blanditiis minus voluptatibus ducimus.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div data-filter="tech" class="articles__item article-item">
+								<a href="" class="article-item__img">
+									<img src="./src/img/tech-3.webp" alt="Image" />
+								</a>
+								<div class="article-item__body">
+									<div class="article-item__date">29.06.2021</div>
+									<h4 class="article-item__title">
+										<a href="#" class="article-item__title-link">
+											Lorem ipsum dolor sit amet.
+										</a>
+									</h4>
+									<div class="article-item__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+											distinctio expedita ipsum reiciendis quo recusandae sequi
+											laudantium, ullam eveniet temporibus provident natus atque at
+											deleniti porro blanditiis minus voluptatibus ducimus. Lorem ipsum
+											dolor sit amet consectetur adipisicing elit. Maiores laboriosam,
+											tempora error exercitationem, ipsa atque libero reiciendis
+											repellendus ratione nobis delectus temporibus assumenda dolorem
+											unde, enim porro magnam ex animi!
+										</p>
+									</div>
+								</div>
+							</div>
+							<div data-filter="cats" class="articles__item article-item">
+								<a href="" class="article-item__img">
+									<img src="./src/img/cat-3.webp" alt="Image" />
+								</a>
+								<div class="article-item__body">
+									<div class="article-item__date">29.06.2021</div>
+									<h4 class="article-item__title">
+										<a href="#" class="article-item__title-link">
+											Lorem ipsum dolor sit amet.
+										</a>
+									</h4>
+									<div class="article-item__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+											distinctio expedita ipsum reiciendis quo recusandae sequi
+											laudantium, ullam eveniet temporibus provident natus atque at
+											deleniti porro blanditiis minus voluptatibus ducimus.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div data-filter="tech" class="articles__item article-item">
+								<a href="" class="article-item__img">
+									<img src="./src/img/tech-4.webp" alt="Image" />
+								</a>
+								<div class="article-item__body">
+									<div class="article-item__date">29.06.2021</div>
+									<h4 class="article-item__title">
+										<a href="#" class="article-item__title-link">
+											Lorem ipsum dolor sit amet.
+										</a>
+									</h4>
+									<div class="article-item__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+											distinctio expedita ipsum reiciendis quo recusandae sequi
+											laudantium, ullam eveniet temporibus provident natus atque at
+											deleniti porro blanditiis minus voluptatibus ducimus. Lorem ipsum
+											dolor sit amet consectetur adipisicing elit. Saepe culpa
+											perferendis ad, hic doloremque quae dolor dignissimos molestiae
+											earum voluptas neque veniam excepturi porro nostrum, ab, corrupti
+											recusandae. Sit, alias.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div data-filter="cats" class="articles__item article-item">
+								<a href="" class="article-item__img">
+									<img src="./src/img/cat-4.webp" alt="Image" />
+								</a>
+								<div class="article-item__body">
+									<div class="article-item__date">29.06.2021</div>
+									<h4 class="article-item__title">
+										<a href="#" class="article-item__title-link">
+											Lorem ipsum dolor sit amet.
+										</a>
+									</h4>
+									<div class="article-item__text">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+											distinctio expedita ipsum reiciendis quo recusandae sequi
+											laudantium, ullam eveniet temporibus provident natus atque at
+											deleniti porro blanditiis minus voluptatibus ducimus.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+
+		<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+		<script type="module" src="/src/main.js"></script>
+	</body>
+</html>
